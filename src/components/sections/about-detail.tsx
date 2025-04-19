@@ -5,7 +5,6 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import {
   Brain,
-  Cloud,
   Code,
   Building2,
   GraduationCap,
