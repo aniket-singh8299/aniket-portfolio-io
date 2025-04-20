@@ -33,7 +33,7 @@ export function AboutDetail() {
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="relative w-48 h-48 rounded-full overflow-hidden border-4 border-primary/10">
               <Image
-                src="/headshot/profile-pic.png"
+                src="/headshot/profile.jpg"
                 alt="Aniket Singh"
                 fill
                 sizes="192px"
@@ -81,27 +81,25 @@ export function AboutDetail() {
               Professional Summary
             </h2>
             <div className="space-y-4 text-lg text-muted-foreground leading-relaxed">
-              <p>
-                AI Engineer and Machine Learning Engineer based in Salt Lake City, specializing in deep learning, generative AI,
-                and LLM applications. With a proven track record of delivering multi-million-dollar solutions, I bring 
-                expertise in building scalable, cost-effective systems on AWS and transforming
-                operations through efficient, reliable, and strategically designed solutions.
-              </p>
-              <p>
-                My recent achievements include leading a high-profile neuro-symbolic AI project that reduced training data needs
-                by 40% and solved complex material science challenges. I successfully migrated 3M&apos;s Corporate Research Analytical
-                Lab&apos;s infrastructure to AWS, cutting cloud costs by 60% and establishing scalable frameworks for manufacturing
-                and divisional teams. I&apos;ve developed custom Python packages, reusable IaC libraries, and modernized CI/CD pipelines,
-                consistently delivering 50%+ improvements in performance and deployment efficiency.
-              </p>
-              <p>
-                With multiple AWS certifications and a strong foundation in Mathematics and Computer Science from Augsburg University,
-                I&apos;ve evolved from software engineering to become a leader in cloud architecture and data science. I&apos;m passionate
-                about advancing AI technologies and developing solutions that enable operational excellence and innovation. Outside of tech,
-                I&apos;m an avid freestyle skier and outdoor enthusiast, bringing the same dedication to precision and continuous
-                improvement from the slopes to my professional work.
-              </p>
-            </div>
+  <p>
+    Data Scientist based in Faridabad with a strong background in machine learning, NLP, and AI-powered automation.
+    I specialize in building predictive models, optimizing data pipelines, and deploying intelligent solutions that
+    drive business insights and operational efficiency.
+  </p>
+  <p>
+    At VelocitAi Digital, I’ve contributed to AI-driven systems for CV parsing, prescreening automation, and price
+    monitoring across e-commerce platforms. My past work includes projects like suicidal text detection and SMS spam
+    classification, built using tools like TensorFlow, PyTorch, Scikit-learn,Deep Learning and Crew AI.
+  </p>
+  <p>
+    As a Full Stack Developer, I developed a company website with a dynamic blog section using <strong>React.js</strong> and 
+    <strong>Tailwind CSS</strong> on the frontend, and <strong>Java Spring Boot</strong> on the backend. The platform supports complete 
+        <strong>CRUD operations</strong>, secure <strong>JWT-based authentication</strong>, an <strong>admin panel</strong> for blog management,
+    and integrates <strong>AWS S3</strong> for scalable storage of content and media.
+  </p>
+</div>
+
+
           </Card>
         </motion.div>
 
@@ -214,7 +212,7 @@ export function AboutDetail() {
         >
           <h2 className="text-3xl font-bold mb-8 flex items-center gap-2">
             <Award className="w-8 h-8 text-primary" />
-            AWS Certifications
+            Certifications
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {certifications.map((cert) => (
@@ -322,14 +320,14 @@ export function AboutDetail() {
                     </Badge>
                   ))}
                 </div>
-                <div className="mt-4">
+                {/* <div className="mt-4">
                   <p className="text-sm font-medium mb-2">Activities and Societies:</p>
                   <ul className="list-disc list-inside text-sm text-muted-foreground space-y-1 ml-2">
                     {education.activities.map((activity, index) => (
                       <li key={index}>{activity.name}</li>
                     ))}
                   </ul>
-                </div>
+                </div> */}
               </div>
             </div>
           </Card>

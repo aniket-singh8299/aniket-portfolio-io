@@ -9,56 +9,74 @@ export interface SkillCategory {
 }
 
 export const skillCategories: SkillCategory[] = [
-  {
-    name: "AI & Machine Learning",
-    Icon: Brain,
-    color: "bg-purple-500/10 text-purple-500",
-    skills: [
-      "Machine Learning",
-      "Deep Learning",
-      "Generative AI",
-      "LLM Fine-Tuning",
-    ],
-  },
-  {
-    name: "Cloud Architecture",
-    Icon: Cloud,
-    color: "bg-blue-500/10 text-blue-500",
-    skills: [
-      "AWS ECS",
-      "NeonDB",
-      "Postgres",
-      "Docker",
-      "Git",
-    ],
-  },
-  {
-    name: "Programming",
-    Icon: Code,
-    color: "bg-green-500/10 text-green-500",
-    skills: [
-      "Python",
-      "Java",
-      "TensorFlow",
-      "PyTorch",
-      "LangChain",
-      "Hugging Face Transformers",
-      "Scikit-Learn",
-      "CrewAi",
-      "Pandas",
-      "NumPy",
-      "Spring Boot"
-    ],
-  },
-  {
-    name: "Data Science",
-    Icon: Terminal,
-    color: "bg-orange-500/10 text-orange-500",
-    skills: [
-      "Feature Engineering",
-      "Dimensionality Reduction",
-      "Clustering",
-      "Statistical Modeling"
-    ],
-  },
-];
+  
+    {
+      name: "AI & Machine Learning",
+      Icon: Brain,
+      color: "bg-purple-500/10 text-purple-500",
+      skills: [
+        "Machine Learning",
+        "Deep Learning",
+        "Generative AI",
+        "LLM Fine-Tuning",
+        "CrewAi",
+        "RAG",
+        "Prompt Engineering",
+        "NLP",
+        "Text Classification",
+        "Sentiment Analysis"      ],
+    },
+    {
+      name: "Cloud Architecture",
+      Icon: Cloud,
+      color: "bg-blue-500/10 text-blue-500",
+      skills: [
+        "AWS ECS",
+        "AWS S3",
+        "NeonDB",
+        "Postgres",
+        "Redis",
+        "Docker",
+        "Git",
+        "Celery"      ],
+    },
+    {
+      name: "Programming",
+      Icon: Code,
+      color: "bg-green-500/10 text-green-500",
+      skills: [
+        "Python",
+        "Java",
+        "C/C++",
+        "JavaScript",
+        "TensorFlow",
+        "PyTorch",
+        "SpaCy",
+        "BERT",
+        "LangChain",
+        "Hugging Face Transformers",
+        "Scikit-Learn",
+        "Pandas",
+        "NumPy",
+        "Spring Boot",
+        "React.js",
+        "Django",
+        "HTML5",
+        "CSS3"
+      ],
+    },
+    {
+      name: "Data Science",
+      Icon: Terminal,
+      color: "bg-orange-500/10 text-orange-500",
+      skills: [
+        "Feature Engineering",
+        "Dimensionality Reduction",
+        "Clustering",
+        "Statistical Modeling",
+        "Web Scraping Tools",
+        "Data Visualization"
+      ],
+    },
+  ];
+  

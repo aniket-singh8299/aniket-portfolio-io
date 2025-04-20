@@ -17,10 +17,10 @@ export function Hero() {
           >
             <div className="relative w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-primary/10">
               <Image
-                src="/headshot/profile-pic.png"
-                alt="Bjorn Melin"
+                src="/headshot/profile.jpg"
+                alt="Aniket Singh"
                 fill
-                sizes="(max-width: 768px) 192px, 256px"
+                sizes="(max-width: 768px) 192px, 100px"
                 priority
                 className="object-cover"
               />

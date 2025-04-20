@@ -47,8 +47,6 @@ export const projectsData: Project[] = [
       "Redis",
       "Selenium",
       "BeautifulSoup",
-      "Agentic AI",
-      "LangChain",
       "RESTAPI"    ],
     category: "Web Development",
     links: {

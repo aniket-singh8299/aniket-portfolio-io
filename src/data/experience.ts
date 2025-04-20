@@ -34,9 +34,17 @@ export const experiences: Experience[] = [
     ],
     skills: [
       { name: "Python" },
-      { name: "Machine Learning" },
-      { name: "Data Analysis" },
-      { name: "Forecasting" },
+      { name: "Generative Ai" },
+      { name: "Prompt Engineering" },
+      { name: "RAG" },
+      { name: "Groq" },
+      { name: "NeonDb" },
+      { name: "LangChain" },
+      { name: "Tensorflow" }
+
+
+
+
     ],
     isRemote: false,
   },
@@ -58,10 +66,19 @@ export const experiences: Experience[] = [
       },
     ],
     skills: [
+      { name: "JAVA" },
+
       { name: "Spring Boot" },
-      { name: "ReactJS" },
-      { name: "Web Development" },
+      { name: "AWS S3" },
+      { name: "AWS ECS" },
       { name: "Python" },
+      { name: "Django" },
+      { name: "Celery" },
+      { name: "Redis" },
+      { name: "Selenium" },
+      { name: "BeautifulSoup" },
+      { name: "ReactJS" },
+      { name: "TalwindCss" },
     ],
     isRemote: false,
   },
@@ -84,6 +101,13 @@ export const experiences: Experience[] = [
       { name: "Scikit-learn" },
       { name: "NLP" },
       { name: "Sentiment Analysis" },
+      { name: "Deep Learning" },
+      { name: "Macine Learning" },
+      { name: "Matplotlib" },
+      { name: "Pandas" },
+      { name: "Numpy" },
+      { name: "Scikit" }
+
     ],
     isRemote: false,
   },

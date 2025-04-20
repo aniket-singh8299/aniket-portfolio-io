@@ -44,8 +44,7 @@ export function About() {
               <h3 className="text-2xl font-semibold">Background</h3>
             </div>
             <p className="text-muted-foreground leading-relaxed">
-              As a Senior Data Scientist and Cloud Solutions Architect with 6
-              AWS certifications, I specialize in developing cutting-edge AI/ML
+              As a Data Scientist and Full Stack Dveloper, I specialize in developing cutting-edge AI/ML
               solutions and GenAI innovations. My expertise spans cloud
               architecture, machine learning, and building scalable AI solutions
               that drive business value.
