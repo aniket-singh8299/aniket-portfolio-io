@@ -59,7 +59,7 @@ export default function ContactPage() {
           </div>
           <h3 className="font-semibold text-lg">DOWNLOAD RESUME</h3>
           <a
-            href="https://drive.google.com/file/d/1dLfRhRIBaiuWg-xb8bJB4aKo0b7kFoPx/view?usp=sharing"
+            href="https://drive.google.com/file/d/1ypaFOiMq0EK_xyMI-JEppztAQ0vXdoEl/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:underline text-lg"
