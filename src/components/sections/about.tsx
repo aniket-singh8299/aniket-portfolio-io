@@ -44,10 +44,7 @@ export function About() {
               <h3 className="text-2xl font-semibold">Background</h3>
             </div>
             <p className="text-muted-foreground leading-relaxed">
-              As a Data Scientist and Full Stack Dveloper, I specialize in developing cutting-edge AI/ML
-              solutions and GenAI innovations. My expertise spans cloud
-              architecture, machine learning, and building scalable AI solutions
-              that drive business value.
+              As an AI Engineer and Data Scientist, I specialize in developing intelligent AI solutions using Machine Learning, Generative AI, and Agentic AI. My expertise spans predictive modeling, NLP, AI agents, and cloud-based architectures to build scalable AI applications that solve real-world business challenges.
             </p>
           </Card>
 

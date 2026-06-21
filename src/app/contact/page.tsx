@@ -57,7 +57,7 @@ export default function ContactPage() {
           <div className="mx-auto w-20 h-20 rounded-full bg-[#1e1e1e] flex items-center justify-center shadow-lg">
             <Globe className="w-8 h-8 text-yellow-400" />
           </div>
-          <h3 className="font-semibold text-lg">DOWNLOAD RESUME</h3>
+          <h3 className="font-semibold text-lg">DOWNLOAD CV</h3>
           <a
             href="https://drive.google.com/file/d/1ypaFOiMq0EK_xyMI-JEppztAQ0vXdoEl/view?usp=sharing"
             target="_blank"

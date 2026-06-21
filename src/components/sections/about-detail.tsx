@@ -44,7 +44,7 @@ export function AboutDetail() {
             <div>
               <h1 className="text-4xl md:text-5xl font-bold mb-4">AniKet SiNgh</h1>
               <p className="text-xl text-muted-foreground mb-4">
-                Data Scientist & Python Backend Developer
+                AI Engineer & Data Scientist
               </p>
               <div className="flex flex-wrap gap-2">
                 <Badge variant="outline" className="bg-primary/10">
@@ -52,13 +52,13 @@ export function AboutDetail() {
                 </Badge>
 
                 <Badge variant="outline" className="bg-primary/10">
-                  <Code className="w-3 h-3 mr-2" /> Full-Stack Developer
+                  <Code className="w-3 h-3 mr-2" /> LLMs
                 </Badge>
                 <Badge variant="outline" className="bg-primary/10">
                   <Sparkles className="w-3 h-3 mr-2" /> Generative AI
                 </Badge>
                 <Badge variant="outline" className="bg-primary/10">
-                  <Sparkles className="w-3 h-3 mr-2" /> CrewAI
+                  <Sparkles className="w-3 h-3 mr-2" /> Agentic AI
                 </Badge>
                 <Badge variant="outline" className="bg-primary/10">
                   <Sparkles className="w-3 h-3 mr-2" /> RAG
@@ -81,22 +81,24 @@ export function AboutDetail() {
               Professional Summary
             </h2>
             <div className="space-y-4 text-lg text-muted-foreground leading-relaxed">
-  <p>
-    Data Scientist based in Faridabad with a strong background in machine learning, NLP, and AI-powered automation.
-    I specialize in building predictive models, optimizing data pipelines, and deploying intelligent solutions that
-    drive business insights and operational efficiency.
-  </p>
-  <p>
-    At VelocitAi Digital, I’ve contributed to AI-driven systems for CV parsing, prescreening automation, and price
-    monitoring across e-commerce platforms. My past work includes projects like suicidal text detection and SMS spam
-    classification, built using tools like TensorFlow, PyTorch, Scikit-learn,Deep Learning and Crew AI.
-  </p>
-  <p>
-    As a Full Stack Developer, I developed a company website with a dynamic blog section using <strong>React.js</strong> and 
-    <strong>Tailwind CSS</strong> on the frontend, and <strong>Java Spring Boot</strong> on the backend. The platform supports complete 
-        <strong>CRUD operations</strong>, secure <strong>JWT-based authentication</strong>, an <strong>admin panel</strong> for blog management,
-    and integrates <strong>AWS S3</strong> for scalable storage of content and media.
-  </p>
+ <p>
+  I am a Data Scientist & AI Engineer specializing in building intelligent AI
+  solutions using Machine Learning, Generative AI, and Agentic AI. I focus on
+  developing scalable systems that combine data, automation, and AI to solve
+  real-world business challenges.
+</p>
+
+<p>
+  My expertise spans Data Science, Predictive Modeling, NLP, Deep Learning,
+  and modern AI technologies. I build production-ready AI applications that
+  transform complex data into actionable insights and intelligent solutions.
+</p>
+
+<p>
+  I am passionate about creating impactful AI products, exploring emerging
+  technologies, and applying advanced AI techniques to develop solutions that
+  improve efficiency, decision-making, and business outcomes.
+</p>
 </div>
 
 

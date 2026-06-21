@@ -22,63 +22,36 @@ export const experiences: Experience[] = [
     title: "Data Scientist",
     company: "VelocitAi Digital Pvt Ltd",
     location: "Gurugram, Haryana",
-    startDate: "Jan 2025",
+    startDate: "Jun 2024",
     endDate: "Present",
     achievements: [
-      {
-        text: "Focused on analyzing large datasets, building predictive models, and optimizing machine learning algorithms.",
-      },
-      {
-        text: "Contributing to AI-driven solutions to improve business processes, decision-making, and forecasting accuracy.",
-      },
-    ],
-    skills: [
-      { name: "Python" },
-      { name: "Generative Ai" },
-      { name: "Prompt Engineering" },
-      { name: "RAG" },
-      { name: "Groq" },
-      { name: "NeonDb" },
-      { name: "LangChain" },
-      { name: "Tensorflow" }
-
-
-
-
-    ],
-    isRemote: false,
+  {
+    text: "Built a voice-enabled Conversational AI system for real-time, multi-round interviews tailored to candidates and job roles.",
   },
   {
-    title: "Full Stack Developer",
-    company: "VelocitAi Digital Pvt Ltd",
-    location: "Gurugram, Haryana",
-    startDate: "June 2024",
-    endDate: "Dec 2024",
-    achievements: [
-      {
-        text: "Developed full-stack web applications using Spring Boot and ReactJS.",
-      },
-      {
-        text: "Implemented blogs and whitepapers on web technologies.",
-      },
-      {
-        text: "Created a price monitoring system for competitor analysis across e-commerce platforms.",
-      },
-    ],
+    text: "Developed a CV/JD parsing and fitment scoring pipeline, improving candidate-job match accuracy by 30% and reducing manual screening effort by 50%.",
+  },
+  {
+    text: "Launched MVP for AI-based hiring platform and enabled live interview workflows with automated feedback and analytics pipelines.",
+  },
+],
     skills: [
-      { name: "JAVA" },
-
-      { name: "Spring Boot" },
-      { name: "AWS S3" },
-      { name: "AWS ECS" },
       { name: "Python" },
-      { name: "Django" },
-      { name: "Celery" },
-      { name: "Redis" },
-      { name: "Selenium" },
-      { name: "BeautifulSoup" },
-      { name: "ReactJS" },
-      { name: "TalwindCss" },
+      { name: "Machine Learning" },
+      { name: "Deep Learning" },
+      { name: "Generative Ai" },
+      { name: "RAG" },
+      { name: "Agentic AI" },
+      { name: "LangGraph" },
+      { name: "LangChain" },
+      { name: "LLMs" },
+      { name: "AWS" }, 
+
+
+
+
+
+
     ],
     isRemote: false,
   },
@@ -105,9 +78,7 @@ export const experiences: Experience[] = [
       { name: "Macine Learning" },
       { name: "Matplotlib" },
       { name: "Pandas" },
-      { name: "Numpy" },
-      { name: "Scikit" }
-
+      { name: "Numpy" }
     ],
     isRemote: false,
   },
